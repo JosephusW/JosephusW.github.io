@@ -1,0 +1,51 @@
+body
+{
+    background-image: url(https://cdn.luogu.com.cn/upload/image_hosting/p4xqq8eb.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 80;
+    margin-left: 100;
+    margin-right: 100;
+    font-family: Cambria;
+}
+h1 {text-align: center; font-size: 30;}
+h2 {text-align: center; font-size: 25;}
+h3 {font-size: 20;}
+#menu
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+#menu a
+{
+    float: left;
+    padding: 16;
+    text-decoration: none;
+    color: rgb(66, 139, 202);
+}
+a
+{
+    color: rgb(66, 139, 202);
+    text-decoration: none;
+}
+a:hover
+{
+    background: rgba(128, 128, 128, 0.1);
+}
+#menu now
+{
+    float: left;
+    padding: 16;
+    color: rgb(0, 161, 48);
+    background: rgba(128, 128, 128, 0.2);
+}
+#menu err
+{
+    float: left;
+    padding: 16;
+    color: rgb(204, 0, 34);
+    background: rgba(128, 128, 128, 0.2);
+}
